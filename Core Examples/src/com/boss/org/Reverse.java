@@ -7,6 +7,7 @@ public class Reverse {
 		//Convert string value to char 
 		char[] ch=input.toCharArray();
 		//now printing char value in reverse order
+		System.out.println(input);
 		for(int i=input.length()-1;i>=0;i--)
 			System.out.print(ch[i]);
 
